@@ -17,13 +17,13 @@ run-android
 
 To build apk with specific version name and version code,run in console in root project folder:
 
-`
+```
 cd ..android  
 ./gradlew assembleRelease -PversionName=[yourVersionNumber] -PversionCode=[yourVersionCode]
-`
+
 Example:
 ./gradlew assembleRelease -PversionName=2.1.1 -PversionCode=234
-
+```
 If you run build command without specific version name and version code, it will build with default params: versionName=1.0 versionCode=1
 
 ## Ios:

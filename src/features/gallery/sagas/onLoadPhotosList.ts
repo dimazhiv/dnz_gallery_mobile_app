@@ -10,7 +10,7 @@ export function* _onLoadPhotosList() {
     const photos = (yield call(loadPhotosList)) as NormalizedPhotos;
     yield put(setPhotos(photos));
   } catch (error) {
-    console.error(error);
+    yield call(console.error, error);
   }
 }
 

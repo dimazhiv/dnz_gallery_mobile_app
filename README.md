@@ -15,7 +15,6 @@ react-native run-android
 To build apk with specific version name and version code,run in console in root project folder:
 
 cd ..android
-
 ./gradlew assembleRelease -PversionName=[yourVersionNumber] -PversionCode=[yourVersionCode]
 
 Example:

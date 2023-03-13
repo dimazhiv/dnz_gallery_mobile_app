@@ -9,14 +9,15 @@ https://reactnative.dev/docs/environment-setup
 
 To run application on emulator, run in console in root project folder:
 
-yarn
+`yarn
 react-native run-android
-
+`
 To build apk with specific version name and version code,run in console in root project folder:
 
+`
 cd ..android
 ./gradlew assembleRelease -PversionName=[yourVersionNumber] -PversionCode=[yourVersionCode]
-
+`
 Example:
 ./gradlew assembleRelease -PversionName=2.1.1 -PversionCode=234
 

@@ -39,6 +39,7 @@ To run application on simulator, run in console in root project folder:
 
 ```
 yarn
+bundle install
 yarn pod
 react-native run-ios
 ```

@@ -4,18 +4,18 @@ Demo mobile application fot Flicker gallery: https://www.flickr.com/photos/flick
 ###Android:
 
 To run android app you should have prepared environment with Android studio, JDK, emulators, etc. 
-according to React-Native guides:
+according to React-Native guides:  
 https://reactnative.dev/docs/environment-setup
 
 To run application on emulator, run in console in root project folder:
 
-`yarn
+`yarn  
 react-native run-android
 `
 To build apk with specific version name and version code,run in console in root project folder:
 
 `
-cd ..android
+cd ..android  
 ./gradlew assembleRelease -PversionName=[yourVersionNumber] -PversionCode=[yourVersionCode]
 `
 Example:

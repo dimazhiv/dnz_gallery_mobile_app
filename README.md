@@ -15,7 +15,7 @@ react-native
 run-android
 ```
 
-To build apk with specific version name and version code,run in console in root project folder:
+To build apk with specific version name and version code, run in console in root project folder:
 
 ```
 cd ..android  
@@ -25,6 +25,8 @@ Example:
 ./gradlew assembleRelease -PversionName=2.1.1 -PversionCode=234
 ```
 If you run build command without specific version name and version code, it will build with default params: versionName=1.0 versionCode=1
+
+Apk file will appear in folder dnz_gallery_mobile_app/android/app/build/outputs/apk/releases/
 
 ## Ios:
 

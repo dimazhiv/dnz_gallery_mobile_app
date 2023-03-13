@@ -1,9 +1,8 @@
 import { all, call } from 'redux-saga/effects';
-import { saga as racersSaga } from './features/racers';
 import { saga as gallerySaga } from './features/gallery';
 
 function* rootSaga() {
-  yield all([call(gallerySaga), call(racersSaga)]);
+  yield all([call(gallerySaga)]);
 }
 
 export default rootSaga;

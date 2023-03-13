@@ -1,7 +1,7 @@
 # dnz_gallery_mobile_app
 Demo mobile application fot Flicker gallery: https://www.flickr.com/photos/flickr/galleries/72157647277042064/with/8432423659/
 
-###Android:
+## Android:
 
 To run android app you should have prepared environment with Android studio, JDK, emulators, etc. 
 according to React-Native guides:  
@@ -23,7 +23,7 @@ Example:
 
 If you run build command without specific version name and version code, it will build with default params: versionName=1.0 versionCode=1
 
-###Ios:
+## Ios:
 
 To run ios app you should have prepared environment with Xcode, Simulators, Ruby, bundle, etc. 
 according to React-Native guides:

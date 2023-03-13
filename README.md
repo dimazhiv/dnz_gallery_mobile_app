@@ -1,6 +1,8 @@
 # dnz_gallery_mobile_app
 Demo mobile application for Flicker gallery: https://www.flickr.com/photos/flickr/galleries/72157647277042064/with/8432423659/
 
+Manual is valid for MacOS. For another OS commands can be different.
+
 ## Android:
 
 To run android app you should have prepared environment with Android studio, JDK, emulators, etc. 

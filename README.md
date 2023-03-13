@@ -30,7 +30,7 @@ Apk file will appear in folder dnz_gallery_mobile_app/android/app/build/outputs/
 
 ## Ios:
 
-To run ios app you should have prepared environment with Xcode, Simulators, Ruby, bundle, etc. 
+To run ios app you should have prepared environment with Xcode, Simulators, Cocoapods, Ruby, bundle, etc. 
 according to React-Native guides:
 https://reactnative.dev/docs/environment-setup
 

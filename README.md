@@ -34,6 +34,8 @@ https://reactnative.dev/docs/environment-setup
 
 To run application on simulator, run in console in root project folder:
 
+```
 yarn
 yarn pod
 react-native run-ios
+```

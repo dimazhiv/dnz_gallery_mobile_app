@@ -15,6 +15,7 @@ react-native run-android
 To build apk with specific version name and version code,run in console in root project folder:
 
 cd ..android
+
 ./gradlew assembleRelease -PversionName=[yourVersionNumber] -PversionCode=[yourVersionCode]
 
 Example:
@@ -26,7 +27,6 @@ If you run build command without specific version name and version code, it will
 
 To run ios app you should have prepared environment with Xcode, Simulators, Ruby, bundle, etc. 
 according to React-Native guides:
-
 https://reactnative.dev/docs/environment-setup
 
 To run application on simulator, run in console in root project folder:

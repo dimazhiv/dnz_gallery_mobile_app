@@ -5,10 +5,10 @@ Demo mobile application fot Flicker gallery: https://www.flickr.com/photos/flick
 
 To run android app you should have prepared environment with Android studio, JDK, emulators, etc. 
 according to React-Native guides:
-
 https://reactnative.dev/docs/environment-setup
 
 To run application on emulator, run in console in root project folder:
+
 yarn
 react-native run-android
 
@@ -17,7 +17,7 @@ To build apk with specific version name and version code,run in console in root 
 cd ..android
 ./gradlew assembleRelease -PversionName=[yourVersionNumber] -PversionCode=[yourVersionCode]
 
-example:
+Example:
 ./gradlew assembleRelease -PversionName=2.1.1 -PversionCode=234
 
 If you run build command without specific version name and version code, it will build with default params: versionName=1.0 versionCode=1

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot testing Photos component correct component view 1`] = `
+<FlatList
+  ItemSeparatorComponent={[Function]}
+  contentContainerStyle={
+    {
+      "paddingBottom": 20,
+      "paddingTop": 10,
+    }
+  }
+  data={
+    [
+      "https://farm9.staticflickr.com/8187/8432423659_dd1b834ec5.jpg",
+      "https://farm9.staticflickr.com/8450/8047948330_b0e55d455f.jpg",
+    ]
+  }
+  renderItem={[Function]}
+  showsVerticalScrollIndicator={false}
+/>
+`;

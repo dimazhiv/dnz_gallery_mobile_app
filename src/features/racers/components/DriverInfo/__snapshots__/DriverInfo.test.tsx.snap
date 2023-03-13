@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot testing DriverInfo component correct component view 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 32,
+      }
+    }
+  >
+    Carlos Sainz
+  </Text>
+  <Text
+    style={
+      {
+        "fontSize": 24,
+      }
+    }
+  >
+    01.09.1994
+  </Text>
+  <Text
+    style={
+      {
+        "fontSize": 24,
+      }
+    }
+  >
+    Spanish
+  </Text>
+  <TouchableOpacity
+    onPress={[Function]}
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        {
+          "color": "blue",
+          "fontSize": 36,
+          "paddingVertical": 50,
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      more info
+    </Text>
+  </TouchableOpacity>
+</View>
+`;

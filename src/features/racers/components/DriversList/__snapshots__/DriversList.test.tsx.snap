@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot testing DriversList component correct component view 1`] = `
+<FlatList
+  ItemSeparatorComponent={[Function]}
+  data={
+    [
+      "alonso",
+      "senna",
+    ]
+  }
+  renderItem={[Function]}
+  showsVerticalScrollIndicator={false}
+  style={
+    {
+      "paddingBottom": 20,
+      "paddingTop": 10,
+    }
+  }
+/>
+`;

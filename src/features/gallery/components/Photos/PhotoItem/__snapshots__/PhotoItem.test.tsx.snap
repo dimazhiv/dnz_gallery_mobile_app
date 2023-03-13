@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot testing PhotoItem component correct component view 1`] = `
+<TouchableOpacity
+  onPress={[Function]}
+>
+  <Image
+    source={
+      {
+        "uri": "https://farm9.staticflickr.com/8187/8432423659_dd1b834ec5.jpg",
+      }
+    }
+    style={
+      {
+        "height": 300,
+        "width": 300,
+      }
+    }
+  />
+</TouchableOpacity>
+`;

@@ -1,5 +1,5 @@
 # dnz_gallery_mobile_app
-Demo mobile application fot Flicker gallery: https://www.flickr.com/photos/flickr/galleries/72157647277042064/with/8432423659/
+Demo mobile application for Flicker gallery: https://www.flickr.com/photos/flickr/galleries/72157647277042064/with/8432423659/
 
 ## Android:
 
